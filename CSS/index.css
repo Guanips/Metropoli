@@ -1,0 +1,76 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ECF9FF;
+}
+
+nav {
+    background-color: #FFFBEB;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.recent-articles {
+    margin: 15px;
+}
+
+.card {
+    width: 20em;
+    height: 19em;
+    position: relative;
+}
+
+.card-title {
+    padding-top: 8px;
+    padding-bottom:10px;
+    font-size: 25px;
+}
+
+.card-subtitle {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 15px;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.carousel-item img{
+    position: relative;
+    object-fit: cover;
+    height:300px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.315);
+    
+}
+
+.carousel-caption h4 {
+    font-size: 15px;
+}
+
+.carousel {
+    height: 170px;
+}
+
+.recent-article-indicators {
+    position: absolute;
+    top: 0;
+}

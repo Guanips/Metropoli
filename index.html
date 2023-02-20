@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Metropoli</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm d-flex flex-row">
+        <a href="" class="navbar-brand">Metropoli</a>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Topics</a>
+                <ul class="dropdown-menu">
+                    <li><a href="" class="dropdown-item">Lifestyle</a></li>
+                    <li><a href="" class="dropdown-item">Tecnology</a></li>
+                    <li><a href="" class="dropdown-item">Entertainment</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Discuss</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">About</a> 
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="container-md recent-articles d-lg-block d-xl-block d-xxl-block d-md-none d-sm-none d-none">
+        <h2>Recent Articles</h2>
+        <a class="card" href="" style="text-decoration: none; color: black;">
+            <div class="card-body">
+                <img src="/MEDIA/IMG/city_placeholder.jpg" alt="" class="card-img-top">
+                <h3 class="card-title" id="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing eli</h3>
+                <h4 class="card-subtitle">Cesar Guanipa 20/2/2023</h4>
+            </div>
+        </a>
+    </div>
+
+    <div class="carousel slide d-md-block d-sm-block d-block d-lg-none d-xl-none d-xxl-none" id="recent-articles">
+        <div class="carousel-indicators recent-article-indicators">
+            <button type="button" data-bs-target="#recent-articles" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#recent-articles" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#recent-articles" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#recent-articles" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a class="d-block w-100" href="" style="text-decoration: none; color: black;">
+                    <img src="/MEDIA/IMG/pexels-james-wheeler-1519088.jpg" alt="" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <h4>Cesar Guanipa 20/2/2023</h4>
+                    </div>
+                </a>
+            </div>
+
+            <div class="carousel-item">
+                <a class="d-block w-100" href="" style="text-decoration: none; color: black;">
+                    <img src="/MEDIA/IMG/chainsaw-man-denji-3840x2160-8958.jpg" alt="" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <h4>Cesar Guanipa 20/2/2023</h4>
+                    </div>
+                </a>
+            </div>
+
+            <div class="carousel-item">
+                <a class="d-block w-100" href="" style="text-decoration: none; color: black;">
+                    <img src="/MEDIA/IMG/cycling-in-amsterdam.jpg" alt="" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <h4>Cesar Guanipa 20/2/2023</h4>
+                    </div>
+                </a>
+            </div>
+
+            <div class="carousel-item">
+                <a class="d-block w-100" href="" style="text-decoration: none; color: black;">
+                    <img src="/MEDIA/IMG/HD-wallpaper-a-lofi-romance-love-couple-artist-artwork-digital-art-artstation.jpg" alt="" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <h4>Cesar Guanipa 20/2/2023</h4>
+                    </div>
+                </a>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#recent-articles" data-bs-slide="prev" style="background-color:black;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recent-articles" data-bs-slide="next"  style="background-color:black;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">next</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="/JS/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
