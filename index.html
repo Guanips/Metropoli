@@ -33,18 +33,47 @@
         </ul>
         </div>
     </nav>
-
-    <div class="container-md recent-articles d-lg-block d-xl-block d-xxl-block d-md-none d-sm-none d-none">
+<section>
+<!-- Recent Card view for large screens -->
+    
+    <div class="recent-articles d-lg-flex d-xl-flex d-xxl-flex d-md-none d-sm-none d-none flex-column align-items-center justify-content-evenly">
+        
         <h2>Recent Articles</h2>
-        <a class="card" href="" style="text-decoration: none; color: black;">
-            <div class="card-body">
-                <img src="/MEDIA/IMG/city_placeholder.jpg" alt="" class="card-img-top">
-                <h3 class="card-title" id="card-title">Lorem ipsum dolor sit amet, consectetuer adipiscing eli</h3>
-                <h4 class="card-subtitle">Cesar Guanipa 20/2/2023</h4>
-            </div>
-        </a>
-    </div>
+        <div class="d-flex card-container">
+            <a class="card recent-card" href="" style="text-decoration: none; color: black;">
+                <div class="card-body">
+                    <img src="/MEDIA/IMG/city_placeholder.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title title" id="card-title1">Lorem ipsum dolor sit amet, consectetuer adipiscing eli</h3>
+                    <h4 class="card-subtitle">Cesar Guanipa 20/2/2023</h4>
+                </div>
+            </a>
 
+            <a class="card recent-card" href="" style="text-decoration: none; color: black;">
+                <div class="card-body">
+                    <img src="/MEDIA/IMG/city_placeholder.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title title" id="card-title2">Lorem ipsum dolor sit amet, consectetuer adipiscing eli</h3>
+                    <h4 class="card-subtitle">Cesar Guanipa 20/2/2023</h4>
+                </div>
+            </a>
+
+            <a class="card recent-card" href="" style="text-decoration: none; color: black;">
+                <div class="card-body">
+                    <img src="/MEDIA/IMG/city_placeholder.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title title" id="card-title3">Lorem ipsum dolor sit amet, consectetuer adipiscing eli</h3>
+                    <h4 class="card-subtitle">Cesar Guanipa 20/2/2023</h4>
+                </div>
+            </a>
+
+            <a class="card recent-card" href="" style="text-decoration: none; color: black;">
+                <div class="card-body">
+                    <img src="/MEDIA/IMG/city_placeholder.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title title" id="card-title4">Lorem ipsum dolor sit amet, consectetuer adipiscing eli</h3>
+                    <h4 class="card-subtitle">Cesar Guanipa 20/2/2023</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+<!-- Recent Carousel view for small screens -->
     <div class="carousel slide d-md-block d-sm-block d-block d-lg-none d-xl-none d-xxl-none" id="recent-articles">
         <div class="carousel-indicators recent-article-indicators">
             <button type="button" data-bs-target="#recent-articles" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -104,7 +133,91 @@
             </button>
         </div>
     </div>
+    </section>
+<!-- general articles large -->
+    <section class="general-articles d-flex flex-row">
+        <div class="container-md general-articles d-lg-flex d-xl-flex d-xxl-flex d-md-none d-sm-none d-none flex-column top-articles align-items-center" style="background-color: #AFE1AF;">
+            <h2>Top Lifestyle <br> Articles</h2>
+            <a href="" class="card top-article-card">
+                <div class="card lifestyle-card">
+                    <img src="/MEDIA/IMG/city_placeholder.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title" style="text-align: left;">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="card-subtitle">Cesar Guanipa</h3>
+                </div>
+            </a>
 
+            <a href="" class="card top-article-card">
+                <div class="card lifestyle-card">
+                    <img src="/MEDIA/IMG/city_placeholder.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title" style="text-align: left;">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="card-subtitle">Cesar Guanipa</h3>
+                </div>
+            </a>
+
+            <a href="" class="card top-article-card">
+                <div class="card lifestyle-card">
+                    <img src="/MEDIA/IMG/city_placeholder.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title" style="text-align: left;">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="card-subtitle">Cesar Guanipa</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="container-md general-articles d-lg-flex d-xl-flex d-xxl-flex d-md-none d-sm-none d-none flex-column top-articles align-items-center" style="background-color: #80caff;">
+            <h2>Top technology <br> Articles</h2>
+            <a href="" class="card top-article-card">
+                <div class="card technology-card">
+                    <img src="/MEDIA/IMG/cycling-in-amsterdam.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title" style="text-align: left;">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="card-subtitle">Cesar Guanipa</h3>
+                </div>
+            </a>
+
+            <a href="" class="card top-article-card">
+                <div class="card technology-card">
+                    <img src="/MEDIA/IMG/cycling-in-amsterdam.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title" style="text-align: left;">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="card-subtitle">Cesar Guanipa</h3>
+                </div>
+            </a>
+
+            <a href="" class="card top-article-card">
+                <div class="card technology-card">
+                    <img src="/MEDIA/IMG/cycling-in-amsterdam.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title" style="text-align: left;">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="card-subtitle">Cesar Guanipa</h3>
+                </div>
+            </a>
+        </div>
+        
+        <div class="container-md general-articles d-lg-flex d-xl-flex d-xxl-flex d-md-none d-sm-none d-none flex-column top-articles align-items-center" style="background-color: #CF9FFF;">
+            <h2>Top Entertainment <br> Articles</h2>
+            <a href="" class="card top-article-card">
+                <div class="card entertainment-card">
+                    <img src="/MEDIA/IMG/chainsaw-man-denji-3840x2160-8958.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title" style="text-align: left;">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="card-subtitle">Cesar Guanipa</h3>
+                </div>
+            </a>
+
+            <a href="" class="card top-article-card">
+                <div class="card entertainment-card">
+                    <img src="/MEDIA/IMG/chainsaw-man-denji-3840x2160-8958.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title" style="text-align: left;">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="card-subtitle">Cesar Guanipa</h3>
+                </div>
+            </a>
+
+            <a href="" class="card top-article-card">
+                <div class="card entertainment-card">
+                    <img src="/MEDIA/IMG/chainsaw-man-denji-3840x2160-8958.jpg" alt="" class="card-img-top">
+                    <h3 class="card-title" style="text-align: left;">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="card-subtitle">Cesar Guanipa</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+<!-- general articles small -->
     <script src="/JS/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>

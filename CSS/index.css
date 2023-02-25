@@ -23,7 +23,7 @@ nav {
 }
 
 .recent-articles {
-    margin: 15px;
+    margin-top: 15px;
 }
 
 .card {
@@ -73,4 +73,48 @@ nav {
 .recent-article-indicators {
     position: absolute;
     top: 0;
+}
+
+.recent-card {
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.general-articles {
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.top-article-card{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 15px;
+    border: 0px;
+    border-radius: 12px;
+}
+
+.top-article-card div {
+
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.top-article-card img {
+    border-radius: 12px;
+    height: 65%;
+}
+
+.lifestyle-card {
+    background-color: #558a55;
+}
+
+.technology-card {
+    background-color: #5c92b9;
+}
+
+.entertainment-card {
+    background-color: #a47fc9;
 }
