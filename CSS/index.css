@@ -118,3 +118,30 @@ nav {
 .entertainment-card {
     background-color: #a47fc9;
 }
+
+.top-article-dropdowns {
+    margin-top: 125px;
+}
+
+.top-article-dropdown-btn {
+    font-weight: bold;
+    font-size: 3vw;
+    width: 60vw;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+}
+
+.top-article-dropdown-menu {
+    width: 60vw;
+    border-radius: 0px;
+}
+
+.top-article-dropdown-card {
+    width: 45vw;
+}
+
+.top-article-dropdown-card h3 {
+    margin: 0px;
+}
