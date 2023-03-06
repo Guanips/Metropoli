@@ -13,7 +13,8 @@
     <title>Metropoli</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm d-flex flex-row">
+    <!-- navbar for large displays -->
+    <nav class="navbar navbar-expand-sm d-lg-flex d-xl-flex d-xxl-flex d-sm-none d-md-none d-none flex-row fixed-top">
         <a href="" class="navbar-brand">Metropoli</a>
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
@@ -31,6 +32,31 @@
                 <a href="" class="nav-link">About</a> 
             </li>
         </ul>
+        </div>
+    </nav>
+    <!-- navbar for small screens -->
+    <nav class="navbar d-flex d-sm-flex d-md-flex d-lg-none d-xl-none d-xxl-none fixed-top">
+        <a href="" class="navbar-brand">Metropoli</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-size: 8vw; font-weight: bold;">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+            <div class="offcanvas-body d-flex flex-column">
+                <div class="dropdown offcanvas-item">
+                    <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Topics</a>
+                    <ul class="dropdown-menu offcanvas-dropdown" style="border:0px;">
+                        <li class="offcanvas-dropdown-item" style=" background-color: #77c977;"><a href="" class="dropdown-item">Lifestyle</a></li>
+                        <li class="offcanvas-dropdown-item" style=" background-color: #80caff;"><a href="" class="dropdown-item">Tecnology</a></li>
+                        <li class="offcanvas-dropdown-item" style=" background-color: #CF9FFF;"><a href="" class="dropdown-item">Entertainment</a></li>
+                    </ul>
+                </div>
+                <a href="" class="offcanvas-item">Discuss</a>
+                <a href="" class="offcanvas-item">About</a>
+            </div>
         </div>
     </nav>
 <section>
@@ -222,8 +248,8 @@
     <section class="d-lg-none d-xl-none d-xxl-none d-sm-flex d-md-flex d-flex flex-row justify-content-center top-article-dropdowns">
         <div class="d-flex flex-column">
             <div class="dropdown">
-                <button class="dropdown-toggle  top-article-dropdown-btn" type="button" data-bs-toggle="dropdown" style="background-color: #49c049;">Top Lifestyle Articles</button>
-                <ul class="dropdown-menu top-article-dropdown-menu>" style="background-color: #AFE1AF;">
+                <button class="dropdown-toggle  top-article-dropdown-btn"  id="dropdown1btn" type="button" data-bs-toggle="dropdown"  style="background-color: #49c049;">Top Lifestyle Articles</button>
+                <ul class="dropdown-menu top-article-dropdown-menu>" id="dropdown1menu" style="background-color: #AFE1AF;">
                     <li class="dropdown-item-card">
                         <a href="" class="card top-article-dropdown-card" style="background-color: #77c977;">
                             <img src="MEDIA/IMG/city_placeholder.jpg" alt="" class="card-img-top card-img-dropdown">
@@ -245,13 +271,12 @@
                             <h4 class="card-subtitle list-card-subtitle">Cesar Guanipa 28/2/2023</h4>
                         </a>
                     </li>
-                    <a href="" class="view-all-button" style="background-color: #49c049;">View all</a>
                 </ul>
             </div>
 
             <div class="dropdown">
-                <button class="dropdown-toggle top-article-dropdown-btn" type="button" data-bs-toggle="dropdown" style="background-color: #3391d4;">Top Technology Articles</button>
-                <ul  class="dropdown-menu top-article-dropdown-menu" style="background-color: #80caff;">
+                <button class="dropdown-toggle top-article-dropdown-btn" id="dropdown2btn" type="button" data-bs-toggle="dropdown" style="background-color: #3391d4;">Top Technology Articles</button>
+                <ul  class="dropdown-menu top-article-dropdown-menu" id="dropdown2menu" style="background-color: #80caff;">
                     <li class="dropdown-item-card">
                         <a href="" class="card top-article-dropdown-card" style="background-color: #3391d4;">
                             <img src="MEDIA/IMG/cycling-in-amsterdam.jpg" alt="" class="card-img-top card-img-dropdown">
@@ -273,13 +298,12 @@
                             <h4 class="card-subtitle list-card-subtitle">Cesar Guanipa 28/2/2023</h4>
                         </a>
                     </li>
-                    <a href="" class="view-all-button" style="background-color: #3391d4;">View all</a>
                 </ul>
             </div>
 
             <div class="dropdown">
-                <button class="dropdown-toggle top-article-dropdown-btn" type="button" data-bs-toggle="dropdown" style="background-color: #975ad3;">Top Entertainment Articles</button>
-                <ul  class="dropdown-menu top-article-dropdown-menu" style="background-color: #CF9FFF;">
+                <button class="dropdown-toggle top-article-dropdown-btn" id="dropdown3btn" type="button" data-bs-toggle="dropdown" style="background-color: #975ad3;">Top Entertainment Articles</button>
+                <ul  class="dropdown-menu top-article-dropdown-menu" id="dropdown3menu" style="background-color: #CF9FFF;">
                     <li class="dropdown-item-card">
                         <a href="" class="card top-article-dropdown-card" style="background-color: #975ad3;">
                             <img src="MEDIA/IMG/chainsaw-man-denji-3840x2160-8958.jpg" alt="" class="card-img-top card-img-dropdown">
@@ -301,12 +325,19 @@
                             <h4 class="card-subtitle list-card-subtitle">Cesar Guanipa 28/2/2023</h4>
                         </a>
                     </li>
-                    <a href="" class="view-all-button" style="background-color: #975ad3;">View all</a>
                 </ul>
             </div>
         </div>
+    </section>
 
+    <section class="d-flex d-sm-flex d-md-flex d-lg-none d-xl-none d-xxl-none flex-column">
+        <p style="font-weight: bold; font-size: 8vw; align-self: center;">View All</p>
+        <div class="d-flex flex-row justify-content-evenly">
 
+            <a href="" class="view-all-btn" style="background-color: #49c049;">Life</a>
+            <a href="" class="view-all-btn" style="background-color: #3391d4;">Tech</a>
+            <a href="" class="view-all-btn" style="background-color: #975ad3;">Entmt</a>
+        </div>
     </section>
     <script src="/JS/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

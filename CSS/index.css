@@ -1,10 +1,20 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #ECF9FF;
+    overflow-x: hidden;
 }
 
 nav {
     background-color: #FFFBEB;
+}
+
+footer {
+    background-color: #FFFBEB;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: right;
 }
 
 .navbar-brand {
@@ -20,6 +30,23 @@ nav {
 .nav-item {
     font-size: 20px;
     font-weight: bold;
+}
+
+.offcanvas-item {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 25px;
+    font-size: 6vw;
+}
+
+.offcanvas-dropdown-item {
+    font-size: 6vw; 
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.offcanvas.offcanvas-end {
+    width: 65vw;
 }
 
 .recent-articles {
@@ -166,9 +193,24 @@ nav {
     height: 55vw;
 }
 
-.view-all-button {
-    width: 100vw;
-    font-size: 6vw;
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.dropdown.show .dropdown-menu { /* For Bootstrap 4, use .dropdown.show instead of .dropdown.open */
+    max-height: 300px;
+    opacity: 1;
+}
+
+.view-all-btn {
+    font-size: 8vw;
+    padding: 3vw;
+    
     text-decoration: none;
     color: black;
 }
