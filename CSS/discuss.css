@@ -59,6 +59,10 @@ nav {
     align-items: center;
 }
 
+#disqus_thread {
+    width: 75vw;
+}
+
 @media only screen and (max-width: 576px){
     .top-text h2{
         font-size: 22px;
@@ -117,8 +121,4 @@ nav {
     .top-text p{
         font-size: 25px;    
     }
-}
-
-.commento {
-    width: 75vw;
 }
