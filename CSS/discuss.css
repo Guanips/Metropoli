@@ -53,6 +53,10 @@ nav {
 .top-text {
     margin-top: 25px;
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 576px){
@@ -113,4 +117,8 @@ nav {
     .top-text p{
         font-size: 25px;    
     }
+}
+
+.commento {
+    width: 75vw;
 }
