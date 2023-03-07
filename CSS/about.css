@@ -49,3 +49,18 @@ nav {
     height: 250px;
     object-fit: cover;
 }
+
+.about-text h2 {
+    background-color: #ECF9FF;
+    width: fit-content;
+    text-align: center;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.about-text p {
+    background-color: #ECF9FF;
+    text-align: justify;
+    margin: 20px;
+    width: 75vw;
+}

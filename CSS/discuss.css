@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ECF9FF;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #FFFBEB;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.offcanvas-item {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 25px;
+    font-size: 6vw;
+}
+
+.offcanvas-dropdown-item {
+    font-size: 6vw; 
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.offcanvas.offcanvas-end {
+    width: 65vw;
+}
+
+.top-text h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.top-text p{
+    margin: 25px;
+    text-align: center;
+}
+
+.top-text {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 576px){
+    .top-text h2{
+        font-size: 22px;
+    }
+    
+    .top-text p{
+        font-size: 12px;    
+    }
+}
+
+@media only screen and (min-width: 576px){
+    .top-text h2{
+        font-size: 26px;
+    }
+    
+    .top-text p{
+        font-size: 14px;    
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .top-text h2{
+        font-size: 28px;
+    }
+    
+    .top-text p{
+        font-size: 16px;    
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .top-text h2{
+        font-size: 30px;
+    }
+    
+    .top-text p{
+        font-size: 18px;    
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .top-text h2{
+        font-size: 32px;
+    }
+    
+    .top-text p{
+        font-size: 22px;    
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .top-text h2{
+        font-size: 34px;
+    }
+    
+    .top-text p{
+        font-size: 25px;    
+    }
+}
